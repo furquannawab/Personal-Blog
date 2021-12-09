@@ -1,0 +1,68 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+ul{
+    /* background-color: salmon; 
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto 14%;
+    
+}
+
+a{
+    
+    /* font-size: 1.3rem; 
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    width: fit-content;
+    border: 2px solid black;
+    /* border-radius: 8%; 
+    /* margin: 2%; 
+    padding: 2%;
+    width: 15vw;
+    background-color: rosybrown;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: blanchedalmond;
+}
+
+li{
+    list-style: none;
+} */
+
+section{
+    line-height: 1.2em;
+    padding: 2%;
+    width: 55%;
+    position: absolute;
+    top: 12%;
+    left: 14%;
+    font-size: x-large;
+}
+
+aside{
+    /* float: right; */
+    position: absolute;
+    right: 16%;
+    top: 20%;
+}
+
+figure{
+    text-align: center;
+    font-size: x-large;
+}
