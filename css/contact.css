@@ -1,26 +1,54 @@
 
-
-#contact{
-    /* display: flex;
+ul.contact-list{
+    display: flex;
     flex-direction: column;
-    align-items: center; */
-    margin-top: 5%;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 
-#contact li{
-    position: relative;
-    left: 40%;
+ul.contact-list{
+    margin-top: 6vh;
+    text-align: center;
+}
+
+
+ul.contact-list li{
+    width: 70vw;
     list-style: none;
-    font-size: x-large;
+    font-size: 1.5rem;
     margin-top: 3%;
 }
-
-#contact a{
+ul.contact-list a{
     margin-top: 50px;
 }
 
-span{
-    margin-left: 10px;
+
+img{
+    height: 2.2rem;
+    width: 2.3rem;
+}
+
+a{
+    color: rgb(231, 229, 229);
+}
+
+img:hover, a:hover{
+    color: grey;
+}
+
+@media screen and (max-width: 900px){
+    img{
+        height: 1.1rem;
+        width: 1.1rem;
+    }
+    ul.contact-list{
+        margin-top: 9vh;
+    }
+
+    ul.contact-list li{
+        font-size: 2.3vh;
+        margin-top: 3vh;
+        line-height: 3vh;
+    }
 }
